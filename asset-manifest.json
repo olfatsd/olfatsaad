@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/olfatsaad/static/css/main.e6c13ad2.css",
-    "main.js": "/olfatsaad/static/js/main.caee3ec1.js",
+    "main.js": "/olfatsaad/static/js/main.116c13fe.js",
     "static/js/787.c213f914.chunk.js": "/olfatsaad/static/js/787.c213f914.chunk.js",
     "index.html": "/olfatsaad/index.html",
     "main.e6c13ad2.css.map": "/olfatsaad/static/css/main.e6c13ad2.css.map",
-    "main.caee3ec1.js.map": "/olfatsaad/static/js/main.caee3ec1.js.map",
+    "main.116c13fe.js.map": "/olfatsaad/static/js/main.116c13fe.js.map",
     "787.c213f914.chunk.js.map": "/olfatsaad/static/js/787.c213f914.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.caee3ec1.js"
+    "static/js/main.116c13fe.js"
   ]
 }

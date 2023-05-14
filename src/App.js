@@ -6,7 +6,7 @@ import Favorite from './coomponents/Favorite';
 
 
 function App() {
-  const [data, setData] = useState({})
+  const [data, setData] = useState({ city: { name: ' ' }, list: [{ main: { temp: 0 }, weather: [{ main: ' ' }], dt_txt: '0000-00-00 00:00:00' }] })
   const [location, setLocation] = useState('Tel Aviv')
   const [favorite, setFavorite] = useState([])
 
@@ -22,16 +22,16 @@ function App() {
       setData(response.data)
       console.log(response.data)
     })
-      .catch(err => { console.log(err.message)});
+      .catch(err => { console.log(err.message) });
     setLocation('')
   }
 
   return (
     <div className="app">
       <HashRouter>
-        <div style={{ textAlign: 'right'}}>
-          <Link to={'/'}><button style={{backgroundColor:'cadetblue', marginRight:'10px', fontSize:'20px'}}>HOME</button></Link>
-          <Link to={'/favorite'}><button style={{backgroundColor:'cadetblue', marginRight:'10px', fontSize:'20px'}}>FAVORITES</button></Link>
+        <div style={{ textAlign: 'right' }}>
+          <Link to={'/'}><button style={{ backgroundColor: 'cadetblue', marginRight: '10px', fontSize: '20px' }}>HOME</button></Link>
+          <Link to={'/favorite'}><button style={{ backgroundColor: 'cadetblue', marginRight: '10px', fontSize: '20px' }}>FAVORITES</button></Link>
         </div>
         <hr />
         <Routes>
